@@ -1,0 +1,8 @@
+#if (isset($_REQUEST["doGo"]) ?: false) echo "Кнопка нажата!";
+#if ($_REQUEST["doGo"] ?: false) echo "Кнопка нажата!";
+#$x = $x ?: 1;
+#echo $x; // 1
+#x ? y : z
+#$x = -17;
+#$x = $x < 0 ? -$x;
+#$val = isset($_REQUEST["doGo"]) ? $_REQUEST["doGo"] : false;
