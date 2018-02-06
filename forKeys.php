@@ -6,3 +6,8 @@
 			for (reset($birth); ($k = key($birth)); next($birth))
 					echo "$k родился {$birth[$k]}<br />";
 	  ?>
+
+/*
+       for (end($birth); ($k = key($birth)); prev($birth))   ## Перебор ассоциативного массива только с конца
+                    echo "$k родился {$birth[$k]}<br>";
+*/
